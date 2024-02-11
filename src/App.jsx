@@ -14,7 +14,7 @@ function App() {
 
   let random = [{
     id: 1,
-    description: "Di si por favor",
+    description: "Segura?.",
     img: "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif"
   },
   {
@@ -25,12 +25,12 @@ function App() {
     ,
   {
     id: 2,
-    description: "Vamos, atrévete a decir que sí.",
+    description: "Vamos, di que si",
     img: "https://www.gifmaniacos.es/wp-content/uploads/2019/05/gatitos-kawaii-gifmaniacos.es-19.gif"
   },
   {
     id: 3,
-    description: "No tengas miedo, será genial.",
+    description: "Miedo o que?.",
     img: "https://i.pinimg.com/originals/e1/c3/88/e1c388133e0f998e25bb17c837b74a14.gif"
   },
   {
@@ -40,32 +40,32 @@ function App() {
   },
   {
     id: 5,
-    description: "No tengas dudas, te hará sonreír.",
+    description: "Apoco si muy vrg?.",
     img: "https://i.pinimg.com/originals/c6/b3/0d/c6b30d1a2dc178aeb92de63295d4ae64.gif"
   },
   {
     id: 6,
-    description: "Te prometo que será inolvidable.",
+    description: "Orale va.",
     img: "https://media.tenor.com/N2oqtqaB_G0AAAAi/peach-goma.gif"
   },
   {
     id: 7,
-    description: "No dejes que el miedo te detenga.",
+    description: "Piensalo otra vez.",
     img: "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif"
   },
   {
     id: 8,
-    description: "Confía en el destino, nos está dando una señal.",
+    description: "Te vas a divertir.",
     img: "https://media.tenor.com/cbEccaK9QxMAAAAi/peach-goma.gif"
   },
   {
     id: 9,
-    description: "Confía en mí.",
+    description: "Bueno.",
     img: "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif"
   },
   {
     id: 10,
-    description: "No te arrepentirás.",
+    description: "No pues.",
     img: "https://media.tenor.com/I7KdFaMzUq4AAAAi/peach-goma.gif"
   }]
 
@@ -117,9 +117,9 @@ function App() {
           </div>
         ) : (
           <div className="flex justify-center items-center flex-col space-y-10">
-            <h1 className="text-4xl text-white font-bold">Sabia que dirias que si ❤️!</h1>
+            <h1 className="text-4xl text-white font-bold">Alaaa de verdad?!</h1>
             <img src="https://i.pinimg.com/originals/9b/dc/c6/9bdcc6206c1d36a37149d31108c6bb41.gif" alt="" className="mx-auto" />
-            <span hidden>{document.title = 'Sabia que dirias que si ❤️!'}</span>
+            <span hidden>{document.title = 'Alaaa de verdad?!'}</span>
           </div>
         )
       }
